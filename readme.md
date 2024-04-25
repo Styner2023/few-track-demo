@@ -21,7 +21,7 @@ View the game live [here](https://make-school-labs.github.io/few-track-demo/).
    3. Lets also change the `--background-image` to your favorite wall
    4. Now lets change the `--button-color` to something more readable
    5. The buttons look better, but them being square is a little weird, so lets find the `.button` rule
-   6. inside the `.button` rule, let's add a new property `border-radius` and set it to a value of `50%`
+   6. Inside the `.button` rule, let's add a new property `border-radius` and set it to a value of `50%`
    7. Take a look at what's changed on the page (refresh the webpage in your browser)
 3. Now the page looks a lot better, lets make it work
    1. Go back to the `index.html` file and find the `script` tag, add in the `src` attribute
@@ -40,9 +40,9 @@ Here are a few things you can try to take it a step further:
 
 1. Try to 'hack' the game score by changing the `score` variable in the `main.js` file to give yourself 1,000,000 points.
 2. Maybe you're used to using WASD instead of arrow keys to move in games. Try adding some extra cases in the `switch` statement in the `main.js` file to allow for both. (Hint: we need to use the `event.code` property of the `event` object, eg. `KeyA`, `KeyW`, `KeyS`, `KeyD`).
-3. Having to refresh the page after every change is a bit annoying. Try installing the `Live Server` extension in VSCode to see changes in real-time. You can do this by clicking on the extensions icon on the left sidebar, searching for `Live Server`, and clicking `Install`. After installing, look for a `Go Live` button at the very bottom right corner of your VSCode editor on the blue bar. Click that while on the `index.html` tab to open the project in your browser. Now, every time you save a file, the browser will automatically refresh to show the changes.
+3. Having to refresh the page after every change is a bit annoying. Try installing the `Live Server` extension in VSCode to see changes in real-time. You can do this by clicking on the extensions icon on the far left sidebar, search for `Live Server`, and click `Install`. After installing, look for a `Go Live` button at the very bottom right corner of your VSCode editor on the blue bar. Click the `Go Live` button to open the project in your browser. Now, every time you save a file, the browser will automatically refresh to show the changes.
 
-## Todo -
+<!-- ## Todo -
 
 1. Some tasks to explore programming on the web.
   - Include comments with notes on possible values along side code
@@ -74,4 +74,4 @@ Here are a few things you can try to take it a step further:
       - Edit variables
         - change the speed and frequency of elements
           - speed of bombs and fruit
-          - frequency of fruit vs bombs
+          - frequency of fruit vs bombs -->
