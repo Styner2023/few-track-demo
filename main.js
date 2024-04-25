@@ -167,6 +167,9 @@ function makeObject(type) {
   let y = 0
   let dx = 0
   let dy = 0
+
+  let bombSpeed = 3
+  let fruitSpeed = 3
   
   // Randomly defines where the object starts
   switch(random(4)) {
@@ -174,13 +177,13 @@ function makeObject(type) {
       x = randomXY
       y = -100
       dx = 0
-      dy = 1
+      dy = 1 * fruitSpeed
       break
 
     case 1: // right
       x = 500
       y = randomXY
-      dx = -1
+      dx = -1 * fruitSpeed
       dy = 0
       break
 
@@ -188,24 +191,25 @@ function makeObject(type) {
       x = randomXY
       y = 500
       dx = 0
-      dy = -1
+      dy = -1 * fruitSpeed
       break
 
     case 3: // left
       x = -100
       y = randomXY
-      dx = 1
+      dx = 1 * fruitSpeed
       dy = 0
       break
   }
+  
   // Tells the CSS to put the object where it is supposed to go
   new_object.style.left = `${x}px`
   new_object.style.top = `${y}px`
 
   // Makes the bombs move faster than the other elements
   // the 3 is the speed of the bombs, and the 1 is the speed of the fruits
-  dx = type === 'bomb' ? dx * 3 : dx * 1 
-  dy = type === 'bomb' ? dy * 3 : dy * 1
+  dx = type === 'bomb' ? dx * bombSpeed : dx * 1 
+  dy = type === 'bomb' ? dy * bombSpeed : dy * 1
 
   // creates the object object and addsd it to the array
   const object = {

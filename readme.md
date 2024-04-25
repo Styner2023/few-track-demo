@@ -11,25 +11,25 @@ View the game live [here](https://make-school-labs.github.io/few-track-demo/).
 - Now open the file `index.html` in your file explorer to open it in the web browser. This is where you will see all the changes once they take effect.
 
 1. Let's start in the `index.html` file using your code editor
-   1. Find the `title` tag, and change it from `demo game` to something fun
-   2. Find the `h1` tag that holds our `boring game title`, and update it with a new fun and exciting name
-   3. Find the `link` to our stylesheet and add in the `href` attribute
-   4. Take a look at what's changed on the page (refresh the webpage in your browser)
+    1. Find the `title` tag, and change it from `Page title here` to something fun. (NOTE! This set the name of the page or tab in the browser!)
+    2. Find the `<h1>` tag that holds our `boring game title`, and update it with a new fun and exciting name. (NOTE! Everything inside the `<body>` tag is displayed in browser!)
+    3. Find the `<link>` (its at the top) to our stylesheet and add in the `href` attribute to `href='style.css'` (NOTE! This links to the "stylesheet" file `style.css`)
+    4. Take a look at what's changed on the page (refresh the webpage in your browser)
 2. Now over to the `style.css` file
-   1. Look through the images folder and find a cool alien you want to play as
-   2. In the `:root` rule, change the `--player-image` variable to your favorite alien
-   3. Lets also change the `--background-image` to your favorite wall
-   4. Now lets change the `--button-color` to something more readable
-   5. The buttons look better, but them being square is a little weird, so lets find the `.button` rule
-   6. Inside the `.button` rule, let's add a new property `border-radius` and set it to a value of `50%`
-   7. Take a look at what's changed on the page (refresh the webpage in your browser)
+    1. Look through the images folder and find a cool alien you want to play as
+    2. In the `:root` rule, change the `--player-image` variable to your favorite alien. (NOTE! Since the images are inside the `images` folder use a value like: `./images/Alien-1-Blinking.gif`)
+    3. Lets also change the `--background-image` to your favorite wall. (Same as above, there 4 wall images named `wall-1.png` to `wall-4.png`, try them all!)
+    4. Now lets change the `--button-color` to something more readable. (NOTE! colors can be expressed with a name like: "red", "orange", "chocolate", "rebeccapurple", "lime" etc. You can also use a "hex" value in the form of three values 0 to f. For example: "fff", "000", "f0f", "6f3", "419", etc. Look up hex color.)
+    5. The buttons look better, but them being square is a little weird, so lets find the `.button` rule (around line 147.) Inside the `.button` rule, add a new property `border-radius` and set it to a value of `50%`. Like this: `border-radius: 50%;` (Don't forget the semicolon!)
+    6. Take a look at what's changed on the page (refresh the webpage in your browser)
 3. Now the page looks a lot better, lets make it work
-   1. Go back to the `index.html` file and find the `script` tag, add in the `src` attribute
-   2. Take a look at what's going on, things are moving now!
-   3. Find the `timePerBomb` and `timePerFruit` variable and change them until you find a balance you like.
-   4. Find the `makeObject` function, and inside find where the objects speeds are set.
-   5. Change the speed of the bombs and fruits until you find a balance you like
-   6. Take a look at what's changed on the page (refresh the webpage in your browser)
+    1. Go back to the `index.html` file and find the `script` tag, add in the `src` attribute add: `main.js` (should read: `<script src="main.js">` don't forget the quotes around `main.js`!)
+    2. Take a look at what's going on, things are moving now!
+    3. Find the `timePerBomb` and `timePerFruit` variable and change them until you find a balance you like. (NOTE! The values here are in milliseconds! In other words: 1000 = 1 sec.) Be sure to refresh the game in the browser when you make changes to see the results!  
+    4. Find the `makeObject` function, and inside find where the objects speeds are set.
+    5. Change the speed of the bombs and fruits until you find a balance you like
+    6. Take a look at what's changed on the page (refresh the webpage in your browser)
+    7. Stretch Challenge! Make these values random. You can do that with: `Math.random()` this generates a random number between 0 and 1. You'll need to multiply by the max value and add your minumum value! Something like: `let bombSpeed = Math.random() * 5 + 1` This will generate a random decimal between 1 and 6. 
 4. Looks good!
 
 🎉 Congrats! you've turned the starter project into a functional game with your own game mechanics. You made it possible using HTML, CSS and JS. Feel free to glance over the project files and see if there are things you understand and things you are not sure about just yet.
