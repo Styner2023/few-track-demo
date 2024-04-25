@@ -7,7 +7,7 @@ View the game live [here](https://make-school-labs.github.io/few-track-demo/).
 # Instructions
 
 - Download this project by clicking on the green `<> Code` button and selecting `Download ZIP`. Once downloaded, extract the files.
-- Open the folder in VSCode. Here's a link to [Download VSCode](https://code.visualstudio.com/) if you don't have it installed yet. This is where you will be editing the code.
+- Open the folder in VSCode. Here's a link to [Download VSCode](https://code.visualstudio.com/) if you don't have it installed yet. This is where you will be editing the code. (You can use Notepad, Textedit, or any plain text editor also but you won't the code hints and other features offered by a code editor.)
 - Now open the file `index.html` in your file explorer to open it in the web browser. This is where you will see all the changes once they take effect.
 
 1. Let's start in the `index.html` file using your code editor
