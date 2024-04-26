@@ -3,12 +3,12 @@
   /* These are Global CSS Variables. We can access these anywhere in the styles */
   --button-color: #fff; 
   --transition-time: 400ms;
-	--min-xy: calc(-100px - 0px);
+  --min-xy: calc(-100px - 0px);
   --max-xy: calc(500px + 32px);
   
   /* Swap player for  */
   --player-image: url(./images/pink-default.gif);
-  --background-image: url(./images/wall-4.png);
+  --background-image: url(./images/wall-1.png);
   --bomb-image: url(./images/bomb-default.gif);
   --fruit-apple: url(./images/apple.png);
   --fruit-strawberry: url(./images/strawberry.png);
