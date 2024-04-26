@@ -26,7 +26,7 @@ View the game live [here](https://make-school-labs.github.io/few-track-demo/).
     1. Go back to the `index.html` file and find the `script` tag, add in the `src` attribute add: `main.js` (should read: `<script src="main.js">` don't forget the quotes around `main.js`!)
     2. Take a look at what's going on, things are moving now!
     3. Find the `timePerBomb` and `timePerFruit` variable and change them until you find a balance you like. (NOTE! The values here are in milliseconds! In other words: 1000 = 1 sec.) Be sure to refresh the game in the browser when you make changes to see the results!  
-    4. Find `function makeObject() { ...`, inside the brackets `{ ... }`, find where the objects speeds are set. These are `  let bombSpeed = 3` and `let fruitSpeed = 3`
+    4. Find `function makeObject() { ...`, inside the brackets `{ ... }`, find where the objects speeds are set. These are `let bombSpeed = 3` and `let fruitSpeed = 3`
     5. Change the speed of the bombs and fruits until you find a balance you like
     6. Take a look at what's changed on the page (refresh the webpage in your browser)
     7. Stretch Challenge! Make these values random. You can do that with: `Math.random()` this generates a random number between 0 and 1. You'll need to multiply by the max value and add your minumum value! Something like: `let bombSpeed = Math.random() * 5 + 1` This will generate a random decimal between 1 and 6. 
