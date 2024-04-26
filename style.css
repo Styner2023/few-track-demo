@@ -1,4 +1,7 @@
-/* Style rules - written in CSS */
+/* 
+Fruit Game - Styles 
+Style rules - written in CSS 
+*/
 :root {
   /* These are Global CSS Variables. We can access these anywhere in the styles */
   --button-color: #fff; 
