@@ -168,7 +168,7 @@ function makeObject(type) {
   let dx = 0
   let dy = 0
 
-  let bombSpeed = 3
+  let bombSpeed = 1
   let fruitSpeed = 3
   
   // Randomly defines where the object starts
