@@ -1,6 +1,6 @@
 // *************************************************
 // Fruit Game - Logic
-// Written in JavaScript
+// Written in JavaScript, defines the programming logic
 // *************************************************
 
 // -------------------------------------------------
