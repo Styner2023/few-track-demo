@@ -11,7 +11,7 @@ View the game live [here](https://make-school-labs.github.io/few-track-demo/).
 - Now open the file `index.html` in your file explorer to open it in the web browser. This is where you will see all the changes once they take effect.
 
 1. Let's start in the `index.html` file using your code editor
-    1. Find the `title` tag, and change it from `Page title here` to something fun. (NOTE! This set the name of the page or tab in the browser!)
+    1. Find the `<title>` tag, and change it from `Page title here` to something fun. (NOTE! This set the name of the page or tab in the browser!)
     2. Find the `<h1>` tag that holds our `boring game title`, and update it with a new fun and exciting name. (NOTE! Everything inside the `<body>` tag is displayed in browser!)
     3. Find the `<link>` (its at the top) to our stylesheet and add in the `href` attribute to `href='style.css'` (NOTE! This links to the "stylesheet" file `style.css`)
     4. Take a look at what's changed on the page (refresh the webpage in your browser)
