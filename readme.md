@@ -39,7 +39,13 @@ View the game live [here](https://make-school-labs.github.io/few-track-demo/).
 Here are a few things you can try to take it a step further:
 
 1. Try to 'hack' the game score by changing the `score` variable in the `main.js` file to give yourself 1,000,000 points. Something like: `let score = 1000000`.
-2. Maybe you're used to using WASD instead of arrow keys to move in games. Try adding some extra cases in the `switch` statement in the `main.js` file to allow for both. (Hint: we need to use the `event.code` property of the `event` object, eg. `KeyA`, `KeyW`, `KeyS`, `KeyD`).
+2. Maybe you're used to using WASD instead of arrow keys to move in games. Try adding some extra cases in the `switch` statement in the `main.js` file to allow for both. (Hint: we need to use the `event.code` property of the `event` object, eg. `KeyA`, `KeyW`, `KeyS`, `KeyD`). Find `document.onkeydown = function(e) {...`. Now look at the `switch` block. There is a `case` for each key. Notice that each case calls a function like `moveUp()` and `moveDown()`. Your goal is to define new cases use keys like W, A, S, and D. Your new cases need to call the correct move function for the key! Something like: 
+```JS
+case 'KeyA': 
+      moveLeft()
+      break
+```
+Notice that the case ends with a break! 
 3. Having to refresh the page after every change is a bit annoying. Try installing the `Live Server` extension in VSCode to see changes in real-time. You can do this by clicking on the extensions icon on the far left sidebar, search for `Live Server`, and click `Install`. After installing, look for a `Go Live` button at the very bottom right corner of your VSCode editor on the blue bar. Click the `Go Live` button to open the project in your browser. Now, every time you save a file, the browser will automatically refresh to show the changes.
 
 <!-- ## Todo -
