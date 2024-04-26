@@ -16,10 +16,10 @@ View the game live [here](https://make-school-labs.github.io/few-track-demo/).
     3. Find the `<link>` (its at the top) to our stylesheet and add in the `href` attribute to `href='style.css'` (NOTE! This links to the "stylesheet" file `style.css`)
     4. Take a look at what's changed on the page (refresh the webpage in your browser)
 2. Now over to the `style.css` file
-    1. Look through the images folder and find a cool alien you want to play as
-    2. In the `:root` rule, change the `--player-image` variable to your favorite alien. (NOTE! Since the images are inside the `images` folder use a value like: `./images/Alien-1-Blinking.gif`)
-    3. Lets also change the `--background-image` to your favorite wall. (Same as above, there 4 wall images named `wall-1.png` to `wall-4.png`, try them all!)
-    4. Now lets change the `--button-color` to something more readable. (NOTE! colors can be expressed with a name like: "red", "orange", "chocolate", "rebeccapurple", "lime" etc. You can also use a "hex" value in the form of three values 0 to f. For example: "fff", "000", "f0f", "6f3", "419", etc. Look up hex color.)
+    1. Look through the images folder and find a cool alien you want to play as...
+    2. In `style.css` find the `:root` rule, change the `--player-image` variable to your favorite alien. (NOTE! Since the images are inside the `images` folder use a value like: `./images/Alien-1-Blinking.gif`)
+    3. Lets also change the `--background-image` to your favorite wall. (Same as above, there 4 wall images named `wall-1.png` to `wall-4.png`, try them all!) Be sure to refresh the browser to see these changes! 
+    4. Now lets change the `--button-color` to something more readable. (NOTE! colors can be expressed with a name like: "red", "orange", "chocolate", "rebeccapurple", "lime" etc. You can also use a "hex" value in the form of three values 0 to f. For example: "fff", "000", "f0f", "6f3", "420", etc. Look up hex color.)
     5. The buttons look better, but them being square is a little weird, so lets find the `.button` rule (around line 147.) Inside the `.button` rule, add a new property `border-radius` and set it to a value of `50%`. Like this: `border-radius: 50%;` (Don't forget the semicolon!)
     6. Take a look at what's changed on the page (refresh the webpage in your browser)
 3. Now the page looks a lot better, lets make it work
